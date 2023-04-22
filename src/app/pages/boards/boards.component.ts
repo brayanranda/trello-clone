@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { faBox, faWaveSquare, faClock } from "@fortawesome/free-solid-svg-icons"
-import { faTrello } from "@fortawesome/free-brands-svg-icons"
+import { faTrello } from "@fortawesome/free-brands-svg-icons";
+import { faBox, faWaveSquare, faClock, faAngleUp, faAngleDown, faHeart, faBorderAll, faUsers, faCog } from "@fortawesome/free-solid-svg-icons";
 
 @Component({
   selector: 'app-boards',
@@ -8,10 +8,16 @@ import { faTrello } from "@fortawesome/free-brands-svg-icons"
 })
 export class BoardsComponent implements OnInit {
 
-  faBox=faBox
-  faClock=faClock
-  faTrello=faTrello
-  faWaveSquare=faWaveSquare
+  faBox = faBox;
+  faCog = faCog;
+  faUsers = faUsers;
+  faClock = faClock;
+  faHeart = faHeart;
+  faTrello = faTrello;
+  faAngleUp = faAngleUp
+  faBorderAll = faBorderAll;
+  faAngleDown = faAngleDown;
+  faWaveSquare = faWaveSquare;
 
   constructor() { }
 

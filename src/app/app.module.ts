@@ -8,9 +8,11 @@ import { ButtonComponent } from './components/button/button.component';
 import { BoardsComponent } from './pages/boards/boards.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 
-// https://material.angular.io/
-import {OverlayModule} from '@angular/cdk/overlay';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+
+// CDK - https://material.angular.io/
+import {OverlayModule} from '@angular/cdk/overlay';
+import {CdkAccordionModule} from '@angular/cdk/accordion';
 
 
 @NgModule({
@@ -24,8 +26,9 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    OverlayModule,
     FontAwesomeModule,
+    OverlayModule,
+    CdkAccordionModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
