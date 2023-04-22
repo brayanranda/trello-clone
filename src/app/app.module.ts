@@ -8,6 +8,10 @@ import { ButtonComponent } from './components/button/button.component';
 import { BoardsComponent } from './pages/boards/boards.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 
+// https://material.angular.io/
+import {OverlayModule} from '@angular/cdk/overlay';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +22,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    OverlayModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
