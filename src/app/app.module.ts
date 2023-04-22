@@ -10,6 +10,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 
 // https://material.angular.io/
 import {OverlayModule} from '@angular/cdk/overlay';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 
 @NgModule({
@@ -24,6 +25,7 @@ import {OverlayModule} from '@angular/cdk/overlay';
     BrowserModule,
     AppRoutingModule,
     OverlayModule,
+    FontAwesomeModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
